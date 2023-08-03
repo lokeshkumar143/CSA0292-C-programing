@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdio.h>
+void main()
+{
+char *s;
+int len, i;
+printf("enter a string");
+gets(s);
+len=strlen(s);
+printf("\nThe reverse of the string is: ");
+for(i=len; i>=0; i--)
+printf("%c",*(s+i));
+}
