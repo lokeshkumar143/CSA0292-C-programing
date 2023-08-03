@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-intnum, fact=1;
+int num, fact=1;
 int *pn, *pf;
 printf("Enter any number: ");
 scanf("%d", &num);
